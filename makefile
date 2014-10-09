@@ -21,7 +21,7 @@ F_CPU = 16000000UL
 TARGET = main
 
 # List C source files here. (C dependencies are automatically generated.)
-SRC = $(TARGET).c spi.c
+SRC = $(TARGET).c
 
 
 
