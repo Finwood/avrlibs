@@ -181,7 +181,7 @@ elfsize:
 	@if [ -f $(TARGET).elf ]; then echo; echo "Size:"; $(ELFSIZE); echo; fi
 
 hexsize:
-	@if [ -f $(TARGET).elf ]; then echo; echo "Size:"; $(HEXSIZE); echo; fi
+	@if [ -f $(TARGET).hex ]; then echo; echo "Size:"; $(HEXSIZE); echo; fi
 
 
 # Display compiler version information.
